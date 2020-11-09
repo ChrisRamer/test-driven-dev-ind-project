@@ -45,3 +45,9 @@ Input.prototype.getPlanetOrbitInDays = function() {
 			return 200750000;
 	}
 }
+
+Input.prototype.getNextBirthday = function() {
+	const currentDate = new Date();
+	const nextBirthday = new Date(currentDate.getFullYear(), currentDate.getMonth(), (currentDate.getDate() + this.getPlanetOrbitInDays()));
+	return nextBirthday.getMonth() + "/" +  nextBirthday.getDate() + "/" + nextBirthday.getFullYear();
+}

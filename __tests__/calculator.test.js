@@ -19,4 +19,8 @@ describe("Calculator", () => {
 	test("should correctly get the inputted planet's orbital period in days on Earth", () => {
 		expect(testInput.getPlanetOrbitInDays()).toEqual(88);
 	});
+
+	test("should correctly get the user's next birthday on a given planet", () => {
+		expect(testInput.getNextBirthday()).toEqual("1/5/2021");
+	});
 });
