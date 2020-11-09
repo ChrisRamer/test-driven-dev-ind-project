@@ -16,7 +16,7 @@ describe("Calculator", () => {
 		expect(testInput.getPlanet()).toEqual("Mercury");
 	});
 
-	test("should correctly get the inputted planet's years", () => {
-		expect(testInput.getPlanetYears()).toEqual(0.24);
+	test("should correctly get the inputted planet's orbital period in days on Earth", () => {
+		expect(testInput.getPlanetOrbitInDays()).toEqual(88);
 	});
 });

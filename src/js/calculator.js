@@ -17,27 +17,31 @@ Input.prototype.getPlanet = function () {
 	return this.planet;
 }
 
-Input.prototype.getPlanetYears = function() {
+Input.prototype.getPlanetOrbitInDays = function() {
 	switch (this.planet) {
 		case "Mercury":
-			return 0.24;
+			return 88;
 		case "Venus":
-			return 0.62;
+			return 225;
 		case "Earth":
-			return 1;
+			return 365;
 		case "Mars":
-			return 1.88
+			return 687;
 		case "Jupiter":
-			return 11.86
+			return 4380;
 		case "Saturn":
-			return 29;
+			return 10585;
 		case "Uranus":
-			return 84;
+			return 30660;
 		case "Neptune":
-			return 165;
+			return 60225;
 		case "Pluto":
-			return 248;
+			return 90520;
+		case "Eris":
+			return 203670;
 		case "Planet 9":
-			return 15000;
+			return 5475000;
+		case "Alpha Centauri":
+			return 200750000;
 	}
 }
