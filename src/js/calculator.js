@@ -48,6 +48,10 @@ Input.prototype.getPlanetOrbitInDays = function() {
 
 Input.prototype.getNextBirthday = function() {
 	const currentDate = new Date();
-	const nextBirthday = new Date(currentDate.getFullYear(), currentDate.getMonth(), (currentDate.getDate() + this.getPlanetOrbitInDays()));
-	return nextBirthday.getMonth() + "/" +  nextBirthday.getDate() + "/" + nextBirthday.getFullYear();
+	return new Date(currentDate.getFullYear(), currentDate.getMonth(), (currentDate.getDate() + this.getPlanetOrbitInDays()));
+}
+
+Input.prototype.getNextBirthdayToString = function() {
+	const nextBirthday = this.getNextBirthday();
+	return (nextBirthday.getMonth() + 1) + "/" + nextBirthday.getDate() + "/" + nextBirthday.getFullYear();
 }

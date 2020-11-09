@@ -21,6 +21,6 @@ describe("Calculator", () => {
 	});
 
 	test("should correctly get the user's next birthday on a given planet", () => {
-		expect(testInput.getNextBirthday()).toEqual("1/5/2021");
+		expect(testInput.getNextBirthdayToString()).toEqual("2/5/2021");
 	});
 });
