@@ -20,6 +20,10 @@ describe("Calculator", () => {
 		expect(testInput.getPlanetOrbitInDays()).toEqual(88);
 	});
 
+	test("should corectly get the user's age on a given planet", () => {
+		expect(testInput.getAge()).toEqual("95.4 years");
+	});
+
 	test("should correctly get the user's next birthday on a given planet", () => {
 		expect(testInput.getNextBirthdayToString()).toEqual("2/5/2021");
 	});

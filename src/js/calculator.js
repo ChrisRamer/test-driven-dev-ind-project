@@ -46,6 +46,26 @@ Input.prototype.getPlanetOrbitInDays = function() {
 	}
 }
 
+Input.prototype.getAge = function() {
+	const currentDate = new Date();
+	let differenceInYears = parseInt(currentDate.getFullYear() - this.year);
+	const differenceInMonths = parseInt((currentDate.getMonth() + 1) - this.month);
+	const differenceInDays = parseInt(currentDate.getDate() - this.day);
+
+	if (differenceInMonths < 0 || (differenceInMonths == 0 && differenceInDays < 0)) {
+		differenceInYears--;
+	}
+
+	const planetDays = this.getPlanetOrbitInDays();
+	const planetMonths = 31 / planetDays;
+	const planetYears = 365 / planetDays;
+
+	let ageYears = (differenceInYears * planetYears).toFixed(1);
+	const output = ageYears != 1 ? ageYears.toString() + " years" : ageYears.toString() + " year";
+
+	return output;
+}
+
 Input.prototype.getNextBirthday = function() {
 	const currentDate = new Date();
 	return new Date(currentDate.getFullYear(), currentDate.getMonth(), (currentDate.getDate() + this.getPlanetOrbitInDays()));
