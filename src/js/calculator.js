@@ -21,8 +21,6 @@ Input.prototype.getPlanetOrbitInDays = function() {
 			return 88;
 		case "Venus":
 			return 225;
-		case "Earth":
-			return 365;
 		case "Mars":
 			return 687;
 		case "Jupiter":
@@ -58,10 +56,7 @@ Input.prototype.getAge = function() {
 	const planetMonths = 31 / planetDays;
 	const planetYears = 365 / planetDays;
 
-	let ageYears = (differenceInYears * planetYears).toFixed(1);
-	const output = ageYears != 1 ? ageYears.toString() + " years" : ageYears.toString() + " year";
-
-	return output;
+	return parseFloat((differenceInYears * planetYears).toFixed(1));
 }
 
 Input.prototype.getNextBirthday = function() {
