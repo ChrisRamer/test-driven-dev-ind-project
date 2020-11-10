@@ -1,24 +1,24 @@
 # *Solar Galactic Age Calculator*
 
-#### *Test Driven Development Independent Project, [XX/XX/XXXX]*
+#### *Test Driven Development Independent Project, 11/10/2020*
 
 #### By **Chris Ramer**
 
 ## Description
 
-[DESCRIBE PROJECT]
+A program that calculates your age and next birthday on a given planet.
 
 ## Setup/Installation Requirements
 
 Clone this repo to your desktop.
 
-Open the folder named *"test-driven-dev-ind-project"* and double click `index.html` to open it in your browser.
+Open the folder named *"test-driven-dev-ind-project"*.
 
 ## Specs
 
-* **Spec:** Output the user's current age on another planet based on their birthday
+* **Spec:** Output the user's current age on another planet based on their birthday and gives an estimate on their next birthday
 * **Input:** Birthday: 8/20/1997, Planet: Mars
-* **Output:** (at time of submission, user was 23.22192 years old) 12.3 Martian years. Next birthday: Monday, Jan 31, 2022
+* **Output:** Age: 12.2, Next birthday: 1/1/2022 (relative to current day)
 
 ## Technologies Used
 
@@ -27,6 +27,7 @@ Open the folder named *"test-driven-dev-ind-project"* and double click `index.ht
 * Bootstrap
 * JavaScript
 * jQuery
+* Node Package Manager
 
 ### License
 
