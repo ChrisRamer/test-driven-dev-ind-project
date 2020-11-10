@@ -37,8 +37,6 @@ Input.prototype.getPlanetOrbitInDays = function() {
 			return 203670;
 		case "Planet 9":
 			return 5475000;
-		case "Alpha Centauri":
-			return 200750000;
 	}
 }
 
@@ -48,12 +46,7 @@ Input.prototype.getAge = function() {
 	const differenceInMonths = parseInt((currentDate.getMonth() + 1) - this.month);
 	const differenceInDays = parseInt(currentDate.getDate() - this.day);
 
-	if (differenceInMonths < 0 || (differenceInMonths == 0 && differenceInDays < 0)) {
-		differenceInYears--;
-	}
-
 	const planetDays = this.getPlanetOrbitInDays();
-	const planetMonths = 31 / planetDays;
 	const planetYears = 365 / planetDays;
 
 	return parseFloat((differenceInYears * planetYears).toFixed(1));
