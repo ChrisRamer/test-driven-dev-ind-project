@@ -1,5 +1,3 @@
-// AMAZING SITE https://www.exploratorium.edu/ronh/age/
-
 export default class Input {
 	constructor (birthday, planet) {
 		this.year = birthday.getFullYear();
