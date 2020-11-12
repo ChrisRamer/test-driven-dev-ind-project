@@ -16,9 +16,21 @@ Open the folder named *"test-driven-dev-ind-project"*.
 
 ## Specs
 
-* **Spec:** Output the user's current age on another planet based on their birthday and gives an estimate on their next birthday
-* **Input:** Birthday: 8/20/1997, Planet: Mars
-* **Output:** Age: 12.2, Next birthday: 1/1/2022 (relative to current day)
+* **Spec:** Take a user's birthday and stores it.
+* **Input:** 8/20/1997
+* **Output:** 8/20/1997
+
+* **Spec:** Take an inputted planet and stores it.
+* **Input:** Mars
+* **Output:** Mars
+
+* **Spec:** Output user's age on the stored planet.
+* **Input:** (Birthday) 8/20/1997 (planet) Mars
+* **Output:** 12.2
+
+* **Spec:** Output user's next birthday on the stored planet.
+* **Input:** (Birtthday) 8/20/1997 (planet) Mars
+* **Output:** 1/1/2022 (relative to current day)
 
 ## Technologies Used
 
