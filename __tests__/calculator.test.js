@@ -29,7 +29,7 @@ describe("Mercury", () => {
 		expect(testInput.getPlanetOrbitInDays()).toEqual(88);
 	});
 
-	test("should corectly get the user's age on a given planet", () => {
+	test("should correctly get the user's age on a given planet", () => {
 		expect(testInput.getAge()).toEqual(95.4);
 	});
 
@@ -52,7 +52,7 @@ describe("Venus", () => {
 		expect(testInput.getPlanetOrbitInDays()).toEqual(225);
 	});
 
-	test("should corectly get the user's age on a given planet", () => {
+	test("should correctly get the user's age on a given planet", () => {
 		expect(testInput.getAge()).toEqual(37.3);
 	});
 
@@ -75,7 +75,7 @@ describe("Mars", () => {
 		expect(testInput.getPlanetOrbitInDays()).toEqual(687);
 	});
 
-	test("should corectly get the user's age on a given planet", () => {
+	test("should correctly get the user's age on a given planet", () => {
 		expect(testInput.getAge()).toEqual(12.2);
 	});
 
@@ -98,7 +98,7 @@ describe("Jupiter", () => {
 		expect(testInput.getPlanetOrbitInDays()).toEqual(4380);
 	});
 
-	test("should corectly get the user's age on a given planet", () => {
+	test("should correctly get the user's age on a given planet", () => {
 		expect(testInput.getAge()).toEqual(1.9);
 	});
 
@@ -121,7 +121,7 @@ describe("Saturn", () => {
 		expect(testInput.getPlanetOrbitInDays()).toEqual(10585);
 	});
 
-	test("should corectly get the user's age on a given planet", () => {
+	test("should correctly get the user's age on a given planet", () => {
 		expect(testInput.getAge()).toEqual(0.8);
 	});
 
@@ -144,7 +144,7 @@ describe("Uranus", () => {
 		expect(testInput.getPlanetOrbitInDays()).toEqual(30660);
 	});
 
-	test("should corectly get the user's age on a given planet", () => {
+	test("should correctly get the user's age on a given planet", () => {
 		expect(testInput.getAge()).toEqual(0.3);
 	});
 
@@ -167,7 +167,7 @@ describe("Neptune", () => {
 		expect(testInput.getPlanetOrbitInDays()).toEqual(60225);
 	});
 
-	test("should corectly get the user's age on a given planet", () => {
+	test("should correctly get the user's age on a given planet", () => {
 		expect(testInput.getAge()).toEqual(0.1);
 	});
 
@@ -190,7 +190,7 @@ describe("Pluto", () => {
 		expect(testInput.getPlanetOrbitInDays()).toEqual(90520);
 	});
 
-	test("should corectly get the user's age on a given planet", () => {
+	test("should correctly get the user's age on a given planet", () => {
 		expect(testInput.getAge()).toEqual(0.1);
 	});
 
@@ -213,7 +213,7 @@ describe("Eris", () => {
 		expect(testInput.getPlanetOrbitInDays()).toEqual(203670);
 	});
 
-	test("should corectly get the user's age on a given planet", () => {
+	test("should correctly get the user's age on a given planet", () => {
 		expect(testInput.getAge()).toEqual(0);
 	});
 
@@ -236,7 +236,7 @@ describe("Planet 9", () => {
 		expect(testInput.getPlanetOrbitInDays()).toEqual(5475000);
 	});
 
-	test("should corectly get the user's age on a given planet", () => {
+	test("should correctly get the user's age on a given planet", () => {
 		expect(testInput.getAge()).toEqual(0);
 	});
 
