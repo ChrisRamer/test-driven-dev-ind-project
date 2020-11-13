@@ -30,7 +30,7 @@ Open the folder named *"test-driven-dev-ind-project"*.
 
 * **Spec:** Output user's next birthday on the stored planet.
 * **Input:** (Birthday) 8/20/1997 (planet) Mars
-* **Output:** 1/1/2022 (relative to current day)
+* **Output:** The future...
 
 * **Spec:** Outputs user's race on the stored planet.
 * **Input:** (planet) Mars

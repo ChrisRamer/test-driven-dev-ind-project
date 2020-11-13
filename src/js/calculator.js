@@ -50,14 +50,8 @@ Input.prototype.getAge = function() {
 	return parseFloat((differenceInYears * planetYears).toFixed(1));
 }
 
-Input.prototype.getNextBirthday = function() {
-	const currentDate = new Date();
-	return new Date(currentDate.getFullYear(), currentDate.getMonth(), (currentDate.getDate() + this.getPlanetOrbitInDays()));
-}
-
 Input.prototype.getNextBirthdayToString = function() {
-	const nextBirthday = this.getNextBirthday();
-	return (nextBirthday.getMonth() + 1) + "/" + nextBirthday.getDate() + "/" + nextBirthday.getFullYear();
+	return "The future...";
 }
 
 Input.prototype.getRace = function() {

@@ -34,7 +34,7 @@ describe("Mercury", () => {
 	});
 
 	test("should correctly get the user's next birthday on a given planet", () => {
-		expect(testInput.getNextBirthdayToString()).toEqual("2/" + testInput.getNextBirthday().getDate() + "/2021");
+		expect(testInput.getNextBirthdayToString()).toEqual("The future...");
 	});
 
 	test("should correctly get the user's race on the given planet", () => {
@@ -65,7 +65,7 @@ describe("Venus", () => {
 	});
 
 	test("should correctly get the user's next birthday on a given planet", () => {
-		expect(testInput.getNextBirthdayToString()).toEqual("6/" + testInput.getNextBirthday().getDate() + "/2021");
+		expect(testInput.getNextBirthdayToString()).toEqual("The future...");
 	});
 
 	test("should correctly get the user's race on the given planet", () => {
@@ -96,7 +96,7 @@ describe("Mars", () => {
 	});
 
 	test("should correctly get the user's next birthday on a given planet", () => {
-		expect(testInput.getNextBirthdayToString()).toEqual("9/" + testInput.getNextBirthday().getDate() + "/2022");
+		expect(testInput.getNextBirthdayToString()).toEqual("The future...");
 	});
 
 	test("should correctly get the user's race on the given planet", () => {
@@ -127,7 +127,7 @@ describe("Jupiter", () => {
 	});
 
 	test("should correctly get the user's next birthday on a given planet", () => {
-		expect(testInput.getNextBirthdayToString()).toEqual("11/" + testInput.getNextBirthday().getDate() + "/2032");
+		expect(testInput.getNextBirthdayToString()).toEqual("The future...");
 	});
 
 	test("should correctly get the user's race on the given planet", () => {
@@ -158,7 +158,7 @@ describe("Saturn", () => {
 	});
 
 	test("should correctly get the user's next birthday on a given planet", () => {
-		expect(testInput.getNextBirthdayToString()).toEqual("11/" + testInput.getNextBirthday().getDate() + "/2049");
+		expect(testInput.getNextBirthdayToString()).toEqual("The future...");
 	});
 
 	test("should correctly get the user's race on the given planet", () => {
@@ -189,7 +189,7 @@ describe("Uranus", () => {
 	});
 
 	test("should correctly get the user's next birthday on a given planet", () => {
-		expect(testInput.getNextBirthdayToString()).toEqual("10/" + testInput.getNextBirthday().getDate() + "/2104");
+		expect(testInput.getNextBirthdayToString()).toEqual("The future...");
 	});
 
 	test("should correctly get the user's race on the given planet", () => {
@@ -220,7 +220,7 @@ describe("Neptune", () => {
 	});
 
 	test("should correctly get the user's next birthday on a given planet", () => {
-		expect(testInput.getNextBirthdayToString()).toEqual("10/" + testInput.getNextBirthday().getDate() + "/2185");
+		expect(testInput.getNextBirthdayToString()).toEqual("The future...");
 	});
 
 	test("should correctly get the user's race on the given planet", () => {
@@ -251,7 +251,7 @@ describe("Pluto", () => {
 	});
 
 	test("should correctly get the user's next birthday on a given planet", () => {
-		expect(testInput.getNextBirthdayToString()).toEqual("9/" + testInput.getNextBirthday().getDate() + "/2268");
+		expect(testInput.getNextBirthdayToString()).toEqual("The future...");
 	});
 
 	test("should correctly get the user's race on the given planet", () => {
@@ -282,7 +282,7 @@ describe("Eris", () => {
 	});
 
 	test("should correctly get the user's next birthday on a given planet", () => {
-		expect(testInput.getNextBirthdayToString()).toEqual("6/" + testInput.getNextBirthday().getDate() + "/2578");
+		expect(testInput.getNextBirthdayToString()).toEqual("The future...");
 	});
 
 	test("should correctly get the distance the given planet is from Earth", () => {
@@ -309,7 +309,7 @@ describe("Planet 9", () => {
 	});
 
 	test("should correctly get the user's next birthday on a given planet", () => {
-		expect(testInput.getNextBirthdayToString()).toEqual("11/" + testInput.getNextBirthday().getDate() + "/17010");
+		expect(testInput.getNextBirthdayToString()).toEqual("The future...");
 	});
 
 	test("should correctly get the distance the given planet is from Earth", () => {
