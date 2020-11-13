@@ -29,7 +29,7 @@ Open the folder named *"test-driven-dev-ind-project"*.
 * **Output:** 12.2
 
 * **Spec:** Output user's next birthday on the stored planet.
-* **Input:** (Birtthday) 8/20/1997 (planet) Mars
+* **Input:** (Birthday) 8/20/1997 (planet) Mars
 * **Output:** 1/1/2022 (relative to current day)
 
 ## Technologies Used
