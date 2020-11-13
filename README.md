@@ -36,6 +36,10 @@ Open the folder named *"test-driven-dev-ind-project"*.
 * **Input:** (planet) Mars
 * **Output:** Martian
 
+* **Spec:** Output's planet's distance from Earth
+* **Input:** (planet) Mars
+* **Output:** 49.874 million miles
+
 ## Technologies Used
 
 * HTML

@@ -94,6 +94,10 @@ describe("Mars", () => {
 	test("should correctly get the user's race on the given planet", () => {
 		expect(testInput.getRace()).toEqual("Martian");
 	});
+
+	test("should correctly get the distance the given planet is from Earth", () => {
+		expect(testInput.getDistance()).toEqual("49.874 million miles");
+	});
 });
 
 describe("Jupiter", () => {
