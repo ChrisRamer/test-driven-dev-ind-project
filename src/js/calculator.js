@@ -103,4 +103,5 @@ Input.prototype.getDistance = function() {
 			return "8.8 billion miles";
 		case "Planet 9":
 			return "5.577e+10 miles";
+	}
 }
