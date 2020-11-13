@@ -43,8 +43,6 @@ Input.prototype.getPlanetOrbitInDays = function() {
 Input.prototype.getAge = function() {
 	const currentDate = new Date();
 	let differenceInYears = parseInt(currentDate.getFullYear() - this.year);
-	const differenceInMonths = parseInt((currentDate.getMonth() + 1) - this.month);
-	const differenceInDays = parseInt(currentDate.getDate() - this.day);
 
 	const planetDays = this.getPlanetOrbitInDays();
 	const planetYears = 365 / planetDays;
