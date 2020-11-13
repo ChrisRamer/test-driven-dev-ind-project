@@ -36,6 +36,10 @@ describe("Mercury", () => {
 	test("should correctly get the user's next birthday on a given planet", () => {
 		expect(testInput.getNextBirthdayToString()).toEqual("2/" + testInput.getNextBirthday().getDate() + "/2021");
 	});
+
+	test("should correctly get the user's race on the given planet", () => {
+		expect(testInput.getRace()).toEqual("Martian");
+	});
 });
 
 describe("Venus", () => {

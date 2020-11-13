@@ -32,6 +32,10 @@ Open the folder named *"test-driven-dev-ind-project"*.
 * **Input:** (Birthday) 8/20/1997 (planet) Mars
 * **Output:** 1/1/2022 (relative to current day)
 
+* **Spec:** Outputs user's race on the stored planet.
+* **Input:** (planet) Mars
+* **Output:** Martian
+
 ## Technologies Used
 
 * HTML
