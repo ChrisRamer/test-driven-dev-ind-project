@@ -80,3 +80,27 @@ Input.prototype.getRace = function() {
 			return "Plutonian";
 	}
 }
+
+Input.prototype.getDistance = function() {
+	switch (this.planet) {
+		case "Mercury":
+			return "99.547 million miles";
+		case "Venus":
+			return "124.87 million miles";
+		case "Mars":
+			return "49.874 million miles";
+		case "Jupiter":
+			return "512.97 million miles";
+		case "Saturn":
+			return "962.11 million miles";
+		case "Uranus":
+			return "1.7489 billion miles";
+		case "Neptune":
+			return "2.7392 billion miles";
+		case "Pluto":
+			return "3.2182 billion miles";
+		case "Eris":
+			return "8.8 billion miles";
+		case "Planet 9":
+			return "5.577e+10 miles";
+}
