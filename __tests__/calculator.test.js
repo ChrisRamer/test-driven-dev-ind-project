@@ -40,6 +40,10 @@ describe("Mercury", () => {
 	test("should correctly get the user's race on the given planet", () => {
 		expect(testInput.getRace()).toEqual("Mercurian");
 	});
+
+	test("should correctly get the distance the given planet is from Earth", () => {
+		expect(testInput.getDistance()).toEqual("99.547 million miles");
+	});
 });
 
 describe("Venus", () => {
@@ -66,6 +70,10 @@ describe("Venus", () => {
 
 	test("should correctly get the user's race on the given planet", () => {
 		expect(testInput.getRace()).toEqual("Venusian");
+	});
+
+	test("should correctly get the distance the given planet is from Earth", () => {
+		expect(testInput.getDistance()).toEqual("124.87 million miles");
 	});
 });
 
@@ -125,6 +133,10 @@ describe("Jupiter", () => {
 	test("should correctly get the user's race on the given planet", () => {
 		expect(testInput.getRace()).toEqual("Jovian");
 	});
+
+	test("should correctly get the distance the given planet is from Earth", () => {
+		expect(testInput.getDistance()).toEqual("512.97 million miles");
+	});
 });
 
 describe("Saturn", () => {
@@ -151,6 +163,10 @@ describe("Saturn", () => {
 
 	test("should correctly get the user's race on the given planet", () => {
 		expect(testInput.getRace()).toEqual("Saturnian");
+	});
+
+	test("should correctly get the distance the given planet is from Earth", () => {
+		expect(testInput.getDistance()).toEqual("962.11 million miles");
 	});
 });
 
@@ -179,6 +195,10 @@ describe("Uranus", () => {
 	test("should correctly get the user's race on the given planet", () => {
 		expect(testInput.getRace()).toEqual("Uranian");
 	});
+
+	test("should correctly get the distance the given planet is from Earth", () => {
+		expect(testInput.getDistance()).toEqual("1.7489 billion miles");
+	});
 });
 
 describe("Neptune", () => {
@@ -205,6 +225,10 @@ describe("Neptune", () => {
 
 	test("should correctly get the user's race on the given planet", () => {
 		expect(testInput.getRace()).toEqual("Neptunian");
+	});
+
+	test("should correctly get the distance the given planet is from Earth", () => {
+		expect(testInput.getDistance()).toEqual("2.7392 billion miles");
 	});
 });
 
@@ -233,6 +257,10 @@ describe("Pluto", () => {
 	test("should correctly get the user's race on the given planet", () => {
 		expect(testInput.getRace()).toEqual("Plutonian");
 	});
+
+	test("should correctly get the distance the given planet is from Earth", () => {
+		expect(testInput.getDistance()).toEqual("3.2182 billion miles");
+	});
 });
 
 describe("Eris", () => {
@@ -256,6 +284,10 @@ describe("Eris", () => {
 	test("should correctly get the user's next birthday on a given planet", () => {
 		expect(testInput.getNextBirthdayToString()).toEqual("6/" + testInput.getNextBirthday().getDate() + "/2578");
 	});
+
+	test("should correctly get the distance the given planet is from Earth", () => {
+		expect(testInput.getDistance()).toEqual("8.8 billion miles");
+	});
 });
 
 describe("Planet 9", () => {
@@ -278,5 +310,9 @@ describe("Planet 9", () => {
 
 	test("should correctly get the user's next birthday on a given planet", () => {
 		expect(testInput.getNextBirthdayToString()).toEqual("11/" + testInput.getNextBirthday().getDate() + "/17010");
+	});
+
+	test("should correctly get the distance the given planet is from Earth", () => {
+		expect(testInput.getDistance()).toEqual("5.577e+10 miles");
 	});
 });
