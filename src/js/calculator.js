@@ -59,3 +59,24 @@ Input.prototype.getNextBirthdayToString = function() {
 	const nextBirthday = this.getNextBirthday();
 	return (nextBirthday.getMonth() + 1) + "/" + nextBirthday.getDate() + "/" + nextBirthday.getFullYear();
 }
+
+Input.prototype.getRace = function() {
+	switch (this.planet) {
+		case "Mercury":
+			return "Mercurian";
+		case "Venus":
+			return "Venusian";
+		case "Mars":
+			return "Martian";
+		case "Jupiter":
+			return "Jovian";
+		case "Saturn":
+			return "Saturnian";
+		case "Uranus":
+			return "Uranian";
+		case "Neptune":
+			return "Neptunian";
+		case "Pluto":
+			return "Plutonian";
+	}
+}
